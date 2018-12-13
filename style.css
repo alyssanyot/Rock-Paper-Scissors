@@ -1,0 +1,55 @@
+body{
+	text-align: center !important;
+}
+
+h1{
+	padding: 50px;
+}
+
+h2{
+	height: 50px;
+}
+
+img{
+	width: 65%;
+}
+p{
+	font-size: 30px;
+}
+footer{
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+	bottom: 0;
+	left: 0;
+
+
+	background-color: #aaa;
+	color: white;
+	padding: 15px 0px 15px 0px;
+}
+
+.game, .game-labels{
+	font-size: 40px;
+}
+
+.game{
+	padding: 50px;
+
+}
+
+.selection{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ddd;
+
+	padding: 30px;
+}
+
+.selection img{
+	opacity: 0.8;
+}
+
+.selection img:hover{
+	opacity: 1;
+}

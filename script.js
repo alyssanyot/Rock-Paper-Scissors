@@ -1,4 +1,4 @@
-var imgArray = new Array();
+let imgArray = new Array();
 
 imgArray[0] = new Image();
 imgArray[0].src = 'assets/rock.png';
@@ -11,14 +11,14 @@ imgArray[2].src = 'assets/scissors.png';
 
 
 function selectCompChoice(){
-	var randChoice = Math.floor(Math.random()*3);
+	let randChoice = Math.floor(Math.random()*3);
 
 	return randChoice;
 }
 
 function checkResult(userChoice){
-	var compChoice = selectCompChoice();
-	var resultElement = document.getElementById('result');
+	let compChoice = selectCompChoice();
+	let resultElement = document.getElementById('result');
 	//Win
 	if((userChoice == 0 && compChoice == 2) || (userChoice == 1 && compChoice == 0) || (userChoice == 2 && compChoice == 1)){
 		resultElement.innerHTML = "You Win!";

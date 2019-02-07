@@ -12,7 +12,6 @@ imgArray[2].src = 'assets/scissors.png';
 
 function selectCompChoice(){
 	let randChoice = Math.floor(Math.random()*3);
-
 	return randChoice;
 }
 
@@ -36,7 +35,7 @@ function checkResult(userChoice){
 }
 
 function displayChoices(player, computer){
-
+	/*Gets the corresponding image for the player and computer's choices and displays them*/
 	document.getElementById('playerChoice').src = imgArray[player].src;
 	document.getElementById('computerChoice').src = imgArray[computer].src;
 }
